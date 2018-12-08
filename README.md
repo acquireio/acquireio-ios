@@ -1,4 +1,9 @@
-# acquireio-ios
+### Using Co Browsing, Live Chat, Video And Voice Call, Chat Bot, Profile Management retain and support mobile users at scale
+Connect with your visitors at every touchpoint, from first browse to onboarding. Acquire’s tools deliver a personalized customer experience at scale.
+
+
+![ios-github](https://devtools.acquire.io/user-content/img/sdk-app-screen.png)
+
 Example project for acquireIO iOS SDK
 
 ## How to start using CocoaPods
