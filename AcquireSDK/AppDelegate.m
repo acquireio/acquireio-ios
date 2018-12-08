@@ -4,7 +4,7 @@
 //
 //  Created by Raju Jangid on 11/30/18.
 //  Copyright © 2018 AcquireIO Inc. All rights reserved.
-// 
+//
 
 #import "AppDelegate.h"
 #import <AcquireIO/AcquireIO.h>
@@ -93,7 +93,7 @@
         _option[@"ThemeOptions"] = themeDict;
         
         _option[@"ButtonImageName"] = @"chat.png";
-        //_option[@"WebSocketServer"] = @"http://192.168.1.18:8885";
+        //_option[@"WebSocketServer"] = @"https://custom-server.acquire.io";
         
         NSLog(@"%@", _option);
         
@@ -106,13 +106,15 @@
         //[[AcquireIO support] setVisitor:@"Kavin Roberts" phone:nil andEmail:@"kavin.roberts@acquire.io"];
         
         [[AcquireIO support] setAccount:accountID withOptions:config];
-        NSArray *custom_fields = @[
+        /*NSArray *custom_fields = @[
                                    @{@"n":@"zipcode", @"v": @"54321"},
                                    @{@"n":@"acbranch", @"v": @"XXX"},
                                    @{@"n":@"company", @"v": @"XYZ Company"}
                                    ];
         
         [[AcquireIO support] setVisitorExtraField:custom_fields];
+         
+         */
         
         [[AcquireIO support] maskKeyboard:YES];
       
