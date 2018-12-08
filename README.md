@@ -1,5 +1,5 @@
-### Using Co Browsing, Live Chat, Video And Voice Call, Chat Bot, Profile Management retain and support mobile users at scale
-Connect with your visitors at every touchpoint, from first browse to onboarding. Acquire’s tools deliver a personalized customer experience at scale.
+### Using AcquireIO retain and support mobile users at scale
+Connect with your visitors at every touchpoint, from first browse to onboarding. Acquire’s tools deliver a personalized customer experience at scale. support features included Co Browsing, Live Chat, Video And Voice Call, Chat Bot, Profile Management
 
 
 ![ios-github](https://devtools.acquire.io/user-content/img/sdk-app-screen.png)
