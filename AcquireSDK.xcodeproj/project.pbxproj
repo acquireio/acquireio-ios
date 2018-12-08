@@ -8,27 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		3F01BA8721B10D3200EC2575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA8621B10D3200EC2575 /* AppDelegate.m */; };
-		3F01BA8A21B10D3200EC2575 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA8921B10D3200EC2575 /* FirstViewController.m */; };
-		3F01BA8D21B10D3200EC2575 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA8C21B10D3200EC2575 /* SecondViewController.m */; };
+		3F01BA8A21B10D3200EC2575 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA8921B10D3200EC2575 /* HomeViewController.m */; };
+		3F01BA8D21B10D3200EC2575 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA8C21B10D3200EC2575 /* TestViewController.m */; };
 		3F01BA9021B10D3200EC2575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F01BA8E21B10D3200EC2575 /* Main.storyboard */; };
 		3F01BA9221B10D3600EC2575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F01BA9121B10D3600EC2575 /* Assets.xcassets */; };
-		3F01BA9521B10D3600EC2575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F01BA9321B10D3600EC2575 /* LaunchScreen.storyboard */; };
 		3F01BA9821B10D3600EC2575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01BA9721B10D3600EC2575 /* main.m */; };
+		3F8FA7E621B1424200DDB041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F01BA9321B10D3600EC2575 /* LaunchScreen.storyboard */; };
+		3F97DC1821B54207004BEBDF /* TestFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC1721B54207004BEBDF /* TestFormViewController.m */; };
+		3F97DC1B21B543EE004BEBDF /* TestPaymentFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC1A21B543EE004BEBDF /* TestPaymentFormViewController.m */; };
+		3F97DC1E21B65488004BEBDF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC1D21B65488004BEBDF /* SettingViewController.m */; };
+		3F97DC2121B6B45A004BEBDF /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2021B6B45A004BEBDF /* HelpViewController.m */; };
+		3F97DC2D21B79B0C004BEBDF /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2321B79B0C004BEBDF /* BEMLine.m */; };
+		3F97DC2E21B79B0C004BEBDF /* BEMAverageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2721B79B0C004BEBDF /* BEMAverageLine.m */; };
+		3F97DC2F21B79B0C004BEBDF /* BEMPermanentPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2921B79B0C004BEBDF /* BEMPermanentPopupView.m */; };
+		3F97DC3021B79B0C004BEBDF /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2A21B79B0C004BEBDF /* BEMCircle.m */; };
+		3F97DC3121B79B0C004BEBDF /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97DC2B21B79B0C004BEBDF /* BEMSimpleLineGraphView.m */; };
+		65CA0CACC9733F5D28AF3671 /* libPods-AcquireSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353D96348F7E80B2181664F9 /* libPods-AcquireSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353D96348F7E80B2181664F9 /* libPods-AcquireSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcquireSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F01BA8221B10D3200EC2575 /* AcquireSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcquireSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F01BA8521B10D3200EC2575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F01BA8621B10D3200EC2575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F01BA8821B10D3200EC2575 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3F01BA8921B10D3200EC2575 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3F01BA8B21B10D3200EC2575 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3F01BA8C21B10D3200EC2575 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3F01BA8821B10D3200EC2575 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3F01BA8921B10D3200EC2575 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3F01BA8B21B10D3200EC2575 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3F01BA8C21B10D3200EC2575 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		3F01BA8F21B10D3200EC2575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F01BA9121B10D3600EC2575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F01BA9421B10D3600EC2575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F01BA9621B10D3600EC2575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F01BA9721B10D3600EC2575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F97DC1521B532EE004BEBDF /* AcquireSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcquireSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F97DC1621B54207004BEBDF /* TestFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFormViewController.h; sourceTree = "<group>"; };
+		3F97DC1721B54207004BEBDF /* TestFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFormViewController.m; sourceTree = "<group>"; };
+		3F97DC1921B543EE004BEBDF /* TestPaymentFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaymentFormViewController.h; sourceTree = "<group>"; };
+		3F97DC1A21B543EE004BEBDF /* TestPaymentFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaymentFormViewController.m; sourceTree = "<group>"; };
+		3F97DC1C21B65488004BEBDF /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3F97DC1D21B65488004BEBDF /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3F97DC1F21B6B45A004BEBDF /* HelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		3F97DC2021B6B45A004BEBDF /* HelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		3F97DC2321B79B0C004BEBDF /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		3F97DC2421B79B0C004BEBDF /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		3F97DC2521B79B0C004BEBDF /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		3F97DC2621B79B0C004BEBDF /* BEMPermanentPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPermanentPopupView.h; sourceTree = "<group>"; };
+		3F97DC2721B79B0C004BEBDF /* BEMAverageLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAverageLine.m; sourceTree = "<group>"; };
+		3F97DC2821B79B0C004BEBDF /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		3F97DC2921B79B0C004BEBDF /* BEMPermanentPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPermanentPopupView.m; sourceTree = "<group>"; };
+		3F97DC2A21B79B0C004BEBDF /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		3F97DC2B21B79B0C004BEBDF /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		3F97DC2C21B79B0C004BEBDF /* BEMAverageLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAverageLine.h; sourceTree = "<group>"; };
+		B6AF22B6A5FCDE916485BAAC /* Pods-AcquireSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcquireSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcquireSDK/Pods-AcquireSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D0EE00B479E630E24849210C /* Pods-AcquireSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcquireSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcquireSDK/Pods-AcquireSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CA0CACC9733F5D28AF3671 /* libPods-AcquireSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +80,8 @@
 			children = (
 				3F01BA8421B10D3200EC2575 /* AcquireSDK */,
 				3F01BA8321B10D3200EC2575 /* Products */,
+				C03077CE3AC5A019EEBF7514 /* Pods */,
+				7CE2364DDDDAE77C68AA6E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +96,63 @@
 		3F01BA8421B10D3200EC2575 /* AcquireSDK */ = {
 			isa = PBXGroup;
 			children = (
+				3F97DC2221B79B0C004BEBDF /* Graph */,
 				3F01BA8521B10D3200EC2575 /* AppDelegate.h */,
 				3F01BA8621B10D3200EC2575 /* AppDelegate.m */,
-				3F01BA8821B10D3200EC2575 /* FirstViewController.h */,
-				3F01BA8921B10D3200EC2575 /* FirstViewController.m */,
-				3F01BA8B21B10D3200EC2575 /* SecondViewController.h */,
-				3F01BA8C21B10D3200EC2575 /* SecondViewController.m */,
+				3F01BA8821B10D3200EC2575 /* HomeViewController.h */,
+				3F01BA8921B10D3200EC2575 /* HomeViewController.m */,
+				3F01BA8B21B10D3200EC2575 /* TestViewController.h */,
+				3F01BA8C21B10D3200EC2575 /* TestViewController.m */,
 				3F01BA8E21B10D3200EC2575 /* Main.storyboard */,
 				3F01BA9121B10D3600EC2575 /* Assets.xcassets */,
 				3F01BA9321B10D3600EC2575 /* LaunchScreen.storyboard */,
 				3F01BA9621B10D3600EC2575 /* Info.plist */,
 				3F01BA9721B10D3600EC2575 /* main.m */,
+				3F97DC1521B532EE004BEBDF /* AcquireSDK-Bridging-Header.h */,
+				3F97DC1621B54207004BEBDF /* TestFormViewController.h */,
+				3F97DC1721B54207004BEBDF /* TestFormViewController.m */,
+				3F97DC1921B543EE004BEBDF /* TestPaymentFormViewController.h */,
+				3F97DC1A21B543EE004BEBDF /* TestPaymentFormViewController.m */,
+				3F97DC1C21B65488004BEBDF /* SettingViewController.h */,
+				3F97DC1D21B65488004BEBDF /* SettingViewController.m */,
+				3F97DC1F21B6B45A004BEBDF /* HelpViewController.h */,
+				3F97DC2021B6B45A004BEBDF /* HelpViewController.m */,
 			);
 			path = AcquireSDK;
+			sourceTree = "<group>";
+		};
+		3F97DC2221B79B0C004BEBDF /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				3F97DC2C21B79B0C004BEBDF /* BEMAverageLine.h */,
+				3F97DC2721B79B0C004BEBDF /* BEMAverageLine.m */,
+				3F97DC2421B79B0C004BEBDF /* BEMCircle.h */,
+				3F97DC2A21B79B0C004BEBDF /* BEMCircle.m */,
+				3F97DC2821B79B0C004BEBDF /* BEMLine.h */,
+				3F97DC2321B79B0C004BEBDF /* BEMLine.m */,
+				3F97DC2621B79B0C004BEBDF /* BEMPermanentPopupView.h */,
+				3F97DC2921B79B0C004BEBDF /* BEMPermanentPopupView.m */,
+				3F97DC2521B79B0C004BEBDF /* BEMSimpleLineGraphView.h */,
+				3F97DC2B21B79B0C004BEBDF /* BEMSimpleLineGraphView.m */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		7CE2364DDDDAE77C68AA6E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353D96348F7E80B2181664F9 /* libPods-AcquireSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03077CE3AC5A019EEBF7514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF22B6A5FCDE916485BAAC /* Pods-AcquireSDK.debug.xcconfig */,
+				D0EE00B479E630E24849210C /* Pods-AcquireSDK.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F01BA9B21B10D3600EC2575 /* Build configuration list for PBXNativeTarget "AcquireSDK" */;
 			buildPhases = (
+				7429C60E6EC8AE3DC561AB52 /* [CP] Check Pods Manifest.lock */,
 				3F01BA7E21B10D3200EC2575 /* Sources */,
 				3F01BA7F21B10D3200EC2575 /* Frameworks */,
 				3F01BA8021B10D3200EC2575 /* Resources */,
+				7255BB558682661C91A78893 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,7 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F01BA9521B10D3600EC2575 /* LaunchScreen.storyboard in Resources */,
+				3F8FA7E621B1424200DDB041 /* LaunchScreen.storyboard in Resources */,
 				3F01BA9221B10D3600EC2575 /* Assets.xcassets in Resources */,
 				3F01BA9021B10D3200EC2575 /* Main.storyboard in Resources */,
 			);
@@ -141,15 +222,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7255BB558682661C91A78893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcquireSDK/Pods-AcquireSDK-frameworks.sh",
+				"${PODS_ROOT}/AcquireIO/acquireIO/AcquireIO.framework",
+				"${PODS_ROOT}/AcquireIO/acquireIO/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcquireIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcquireSDK/Pods-AcquireSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7429C60E6EC8AE3DC561AB52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcquireSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F01BA7E21B10D3200EC2575 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F01BA8D21B10D3200EC2575 /* SecondViewController.m in Sources */,
+				3F97DC2E21B79B0C004BEBDF /* BEMAverageLine.m in Sources */,
+				3F01BA8D21B10D3200EC2575 /* TestViewController.m in Sources */,
+				3F97DC1821B54207004BEBDF /* TestFormViewController.m in Sources */,
+				3F97DC2F21B79B0C004BEBDF /* BEMPermanentPopupView.m in Sources */,
 				3F01BA8721B10D3200EC2575 /* AppDelegate.m in Sources */,
+				3F97DC1E21B65488004BEBDF /* SettingViewController.m in Sources */,
+				3F97DC3121B79B0C004BEBDF /* BEMSimpleLineGraphView.m in Sources */,
+				3F97DC1B21B543EE004BEBDF /* TestPaymentFormViewController.m in Sources */,
+				3F97DC2D21B79B0C004BEBDF /* BEMLine.m in Sources */,
+				3F97DC3021B79B0C004BEBDF /* BEMCircle.m in Sources */,
 				3F01BA9821B10D3600EC2575 /* main.m in Sources */,
-				3F01BA8A21B10D3200EC2575 /* FirstViewController.m in Sources */,
+				3F01BA8A21B10D3200EC2575 /* HomeViewController.m in Sources */,
+				3F97DC2121B6B45A004BEBDF /* HelpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +309,7 @@
 		3F01BA9921B10D3600EC2575 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -231,12 +363,16 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AcquireSDK/AcquireSDK-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "AcquireSDK-Swift.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		3F01BA9A21B10D3600EC2575 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -283,40 +419,45 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AcquireSDK/AcquireSDK-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "AcquireSDK-Swift.h";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		3F01BA9C21B10D3600EC2575 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF22B6A5FCDE916485BAAC /* Pods-AcquireSDK.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y33NHY884;
 				INFOPLIST_FILE = AcquireSDK/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acquire.AcquireSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3F01BA9D21B10D3600EC2575 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EE00B479E630E24849210C /* Pods-AcquireSDK.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y33NHY884;
 				INFOPLIST_FILE = AcquireSDK/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acquire.AcquireSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
