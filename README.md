@@ -1,5 +1,5 @@
 ### Using AcquireIO retain and support mobile users at scale
-Connect with your visitors at every touchpoint, from first browse to onboarding. Acquire’s tools deliver a personalized customer experience at scale. support features included Co Browsing, Live Chat, Video And Voice Call, Chat Bot, Profile Management
+Connect with your visitors at every touchpoint, from first browse to onboarding. Acquire’s tools deliver a personalized customer experience at scale. Support features included Co Browsing, Live Chat, Video And Voice Call, Chat Bot, and Profile Management.
 
 
 ![ios-github](https://devtools.acquire.io/user-content/img/sdk-app-screen.png)
@@ -14,5 +14,5 @@ Example project for acquireIO iOS SDK
 4.  Build and Run 🎉
 
 ## Help and support documentation
-AcquireIO for iOS has support for all these things. For full details please read our [documentation](https://developer.acquire.io/ios/sdk-setup-guide/getting-start-ios).
+For more details please read our [documentation](https://developer.acquire.io/sdk/ios/sdk-setup-guide/getting-started).
 
